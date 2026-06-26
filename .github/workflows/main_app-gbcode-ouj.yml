@@ -50,6 +50,6 @@ jobs:
         uses: azure/webapps-deploy@v3
         with:
           app-name: 'app-gbcode-ouj'
-          slot-name: 'Production'
+          slot-name: 'staging'
           package: .
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_0DB11CD6BB794030877C2498913407AE }}
